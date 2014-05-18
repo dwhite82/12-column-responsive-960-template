@@ -207,9 +207,7 @@ article {
     nav#topnav ul li a{
         
     }
-    nav#topnav ul.sub-menu{
-        display:block;
-    }
+
     nav#topnav li.has-submenu > a:after {
         content: '+';
         position: absolute;
@@ -283,7 +281,7 @@ nav#topnav ul.sub-menu li {
     float: right;
     cursor:pointer;
     overflow: hidden;
-    background: url("images/hamburger.gif") no-repeat 100% 50%;
+    background: url("../images/hamburger.gif") no-repeat 100% 50%;
 }
 
 /* 4^ Footer Styles */
