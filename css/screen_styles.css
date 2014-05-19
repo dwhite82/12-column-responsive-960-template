@@ -18,8 +18,6 @@ footer p#copyright {
     margin:0 2.1%;
     line-height: 2em;
 }
-.feature {
-}
 
 /* 1^ Site-wide General Styles */
 
@@ -267,21 +265,18 @@ nav#topnav ul.sub-menu li {
 }
 .menu_title:before { /* text for responsive nav toggle */
     content: "Menu";
-    font-family: 'helvetica', sans-serif;
-    font-weight: bold;
     float:right;
-    margin-right: 93px;
+    margin-right: 60px;
 }
 .menu_title { /* toggle div for responsive nav */
     display:none;
     line-height:3em;
-    font-size: .875em; /* 14px/16px */
     position:relative;
     width: 97.916%;
     float: right;
     cursor:pointer;
     overflow: hidden;
-    background: url("../images/hamburger.gif") no-repeat 100% 50%;
+    background: url("../images/hamburger.svg") no-repeat 97.916% 50%;
 }
 
 /* 4^ Footer Styles */
@@ -296,9 +291,6 @@ footer {
     height:79px; /* MUST match negative margin in .page_container, subtract any pixels added from borders*/
     clear:both;
     background-color:#fff;
-}
-footer p {
-    font-family:helvetica, sans-serif;
 }
 
 #footerpush { height:80px;/* MUST Match negative margin in .page_container for sticky footer*/
