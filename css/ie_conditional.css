@@ -9,6 +9,11 @@
 	height:100%;
 }
 
+/* replace responsive menu icon svg with png */
+.menu-title {
+    background: url("../images/hamburger.png") no-repeat 97.916% 50%;
+}
+
 /* * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improves image quality when scaled in IE 7.*/
 
